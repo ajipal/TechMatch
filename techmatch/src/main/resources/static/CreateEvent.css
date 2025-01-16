@@ -127,6 +127,34 @@ body {
     height: 32px; 
   }
 
+/*Organization Field*/
+.organization-input-container {
+    margin: 15px 0;
+    width: 350px;
+}
+
+.organization-input {
+    width: 100%;
+    background-color: var(--surface);
+    border: none;
+    border-radius: 12px;
+    padding: 16px;
+    color: var(--text-primary);
+    font-size: 16px;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+
+.organization-input:focus {
+    outline: none;
+    background-color: var(--surface-dark);
+}
+
+.organization-input::placeholder {
+    color: var(--text-secondary);
+}
+
+
 /* Form Content Styles */
 .form-content {
     display: flex;
@@ -234,7 +262,7 @@ body {
 .event-details {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 10px;
 }
 
 .event-textarea {
@@ -253,7 +281,7 @@ body {
 
 /* Custom Select Styles */
 .select-topic {
-    margin-top: 20px;
+    margin-top: none;
     width: 350px;
 }
 
