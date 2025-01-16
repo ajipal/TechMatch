@@ -154,6 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Collect form data
         const formFields = {
             'name': 'eventName',
+            'organization': 'organization',
             'startDate': 'startDate',
             'startTime': 'startTime',
             'endDate': 'endDate',
